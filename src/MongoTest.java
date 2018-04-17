@@ -6,7 +6,7 @@ public class MongoTest {
         connect.connect();*/
 
         MongoDB_RetrieveData data = new MongoDB_RetrieveData();
-        data.getCollection();
+        data.getCollection2(); // Kan både fungere med .getCollection() og .getCollection2()
 
     }
 }
